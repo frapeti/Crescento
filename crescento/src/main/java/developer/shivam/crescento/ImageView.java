@@ -139,8 +139,8 @@ public class ImageView extends AppCompatImageView {
             }
         }
 
-        if (styledAttributes.hasValue(R.styleable.ImageView_tintMode)) {
-            if (styledAttributes.getInt(R.styleable.ImageView_tintMode, 0) == TintMode.AUTOMATIC) {
+        if (styledAttributes.hasValue(R.styleable.ImageView_crescentoTintMode)) {
+            if (styledAttributes.getInt(R.styleable.ImageView_crescentoTintMode, 0) == TintMode.AUTOMATIC) {
                 tintMode = TintMode.AUTOMATIC;
             } else {
                 tintMode = TintMode.MANUAL;
